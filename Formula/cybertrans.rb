@@ -3,6 +3,7 @@ class Cybertrans < Formula
   homepage "https://github.com/robertogeekACN/CyberTranscoder"
   url "https://raw.githubusercontent.com/robertogeekACN/CyberTranscoder/dist/cybertrans.pyz"
   sha256 "d9f15e9fdd4994b65ef60cb4873101a07f5782988c40af0505967f1314a0f910"
+  version "1.0.0"
   license "MIT"
 
   depends_on "ffmpeg"
