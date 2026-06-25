@@ -2,13 +2,13 @@ class Cybertrans < Formula
   desc "Batch-transcode videos to web-optimised H.264/H.265 in-place with cyberpunk UI"
   homepage "https://github.com/robertogeekACN/CyberTranscoder"
   url "https://raw.githubusercontent.com/robertogeekACN/CyberTranscoder/dist/cybertrans.pyz"
-  sha256 "22b0a4dc995dba8fb0d40545c7b5ea194c8f5447f39ec233d55bebfa09a6aa7f"
-  version "1.2.0"
+  sha256 "d4ffef2da37bc639352f37578826708b6800810e605b7a131cc3472b25f5b82b"
+  version "1.2.1"
   license "MIT"
 
   resource "finder_setup" do
     url "https://raw.githubusercontent.com/robertogeekACN/CyberTranscoder/dist/cybertrans-finder-setup"
-    sha256 "10c64ff0a067ac973f4fc6cfef37e26c60d9c9caa71a747dde0cd8edf1454c65"
+    sha256 "3e4593271af72c4fd6858a738e586ef0d4a2616c24295f1a83a74ab06de63723"
   end
 
   depends_on "ffmpeg"
