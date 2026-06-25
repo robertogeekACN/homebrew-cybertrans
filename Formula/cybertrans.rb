@@ -3,12 +3,12 @@ class Cybertrans < Formula
   homepage "https://github.com/robertogeekACN/CyberTranscoder"
   url "https://raw.githubusercontent.com/robertogeekACN/CyberTranscoder/dist/cybertrans.pyz"
   sha256 "d4ffef2da37bc639352f37578826708b6800810e605b7a131cc3472b25f5b82b"
-  version "1.2.1"
+  version "1.2.2"
   license "MIT"
 
   resource "finder_setup" do
     url "https://raw.githubusercontent.com/robertogeekACN/CyberTranscoder/dist/cybertrans-finder-setup"
-    sha256 "3e4593271af72c4fd6858a738e586ef0d4a2616c24295f1a83a74ab06de63723"
+    sha256 "e3bfe2ba31b83f90ee983b847bdcbca3ec5081f48ce381bf001788bda4344b61"
   end
 
   depends_on "ffmpeg"
